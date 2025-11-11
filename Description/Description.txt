@@ -1,0 +1,11 @@
+Description
+
+Imagine teaching an AI to see, like for a self-driving car. For it to be safe, it has to recognize everything every pedestrian, car, and stop sign, in all kinds of weather.
+
+The traditional way to do this is to feed it millions of real-world photos, which have been painstakingly labeled by hand (a process that costs millions of dollars and thousands of hours).
+
+But what if we could just use a video game? We can get a perfectly labeled, massive dataset from a virtual world like Grand Theft Auto for practically free. The catch? An AI trained on a 'perfect' video game world often gets confused by the messy, unpredictable real world.
+
+My project is about measuring that 'sim-to-real' gap. I'm finding out what happens when an AI trained on virtual images is tested in the real world. More importantly, I'm testing the best ways to combine the massive scale of synthetic data with the high-value 'truth' of real data to build an AI that gets the best of both worlds.
+
+My goal is to quantify the performance difference. I am training models in different ways: one only on real data, one only on synthetic data, and one on a mix of both. This will help us answer key questions: How big is the performance drop when we go from simulation to reality? And can we use a mountain of 'fake' data to build a model that's ultimately better at understanding the real world?
