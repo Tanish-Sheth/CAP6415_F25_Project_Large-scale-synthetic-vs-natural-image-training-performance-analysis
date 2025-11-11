@@ -1,0 +1,19 @@
+Week-1 Log
+
+Project topic: Large scale synthetic vs natural image training performance analysis.
+
+Work done:
+
+Searched multiple sources for dataset that has to be used for the project.
+Selected GTA dataset as a part of synthetic dataset and cityscape semantic dataset as a part of the project.
+Went through the annotation of the images, like what parameters have been used while annotation.
+Reviewed the labeling format and confirmed that synthetic annotations are RGB color coded and Cityscapes provides RGB color coded, label IDs and color-coded masks.
+Outlined the experimental methodology, planning to compare the outcome for Only synthetic images dataset, only natural images dataset and hybrid dataset.
+Testing will be done on natural unseen images.
+Created project GitHub repository and established the base folder structure.
+
+what will be done in the upcoming week:
+Both dataset uses different class color map, so planning a unified color-to-class-index mapping for hybrid training scenarios.
+Finalizing the color mapping table.
+Prepare data splitting for the training
+Generate a demo python script for preliminary training.
